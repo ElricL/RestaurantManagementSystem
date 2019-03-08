@@ -1,0 +1,30 @@
+Manager:
+1. Change ingredient threshold
+	- Manager | id | change threshold | ingredient name | new threshold |
+2. Generate inventory list
+	- Manager | id | generate inventory |
+3. Read request file
+	- Manager | id | read request |
+4. Restock ingredient
+	- Manager | id | restock ingredient | ingredient name | quantity |
+	- Manager | id | restock ingredient | ingredient name | // default quantity is 20
+
+Cook:
+1. Sees the Order
+    - Cook | id | Sees Order | Order number
+2. Cooks the given order
+    - Cook | id | Cooks Order | Order number | list of food names in the given order
+
+Server:
+1. Record a food Order
+    - Server | id | Record Food from | Table # | Food | Subtract: | Subtractions Here | Add: | Additions Here |
+2. Place recorded Orders
+    - Server | id | Place Order(s) from | Table # |
+3. Deliver Order
+    - Server | id | Deliver Order to | Table # | Order: | Order # |
+4. Return Order
+    - Server | id | Return Order from | Table # | Order: | Order # | Food | Subtract: | ingredients | Add: | ingredients | new subtract: | ingredients | new add: | ingredients |
+5. Confirm Order
+    - Server | id | Confirm Order in | Table # | Order: | Order # |
+6. Clear Table
+    - Server | id | Clear Table | Table # |

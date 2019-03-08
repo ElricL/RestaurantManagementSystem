@@ -1,0 +1,14 @@
+Manager | 1 | generate inventory |
+Server | 2 | Fills Table | 3 | 2 | 8 |
+Server | 2 | Record Food from | 3 | Classic Burger | None | None | 1 |
+Server | 2 | Delete Food from | 3 | Classic Burger | None | None | 1 |
+Server | 2 | Delete Food from | 3 | Classic Burger | None | None | 1 |
+Server | 2 | Place Order(s) from | 3 |
+Cook | 1 | Sees Order | 1 |
+Cook | 1 | Cooks Order | 1 |
+Server | 2 | Deliver Order to | 3 | 1 |
+Server | 2 | Return Order from | 3 | 1 | Classic Burger | None | None | None | None | Sucks |
+Cook | 1 | Sees Order | 2 |
+Cook | 1 | Cooks Order | 2 |
+Server | 2 | Confirm Order in | 3 | 2 |
+Server | 2 | Clear Table | 3 |

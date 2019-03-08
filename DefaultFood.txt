@@ -1,0 +1,4 @@
+Classic Burger | 6.00 | Main | beef patty, lettuce, tomato, cheese, bun |
+Monster Burger | 10.00 | Main | beef patty, beef patty, lettuce, tomato, cheese, cheese, bun |
+Poutine | 4.00 | Appetizer | fries, cheese, gravy, ground beef |
+Green Tea Ice Cream | 3.00 | Desert | gt scoop, gt scoop |

@@ -1,0 +1,28 @@
+Manager | 1 | generate inventory |
+Server | 2 | Record Food from | 3 | Poutine | Subtract: | None | Add: | None |
+Server | 2 | Record Food from | 3 | Classic Burger | Subtract: | None | Add: | None |
+Server | 2 | Record Food from | 3 | Classic Burger | Subtract: | None | Add: | None |
+Server | 2 | Record Food from | 3 | Classic Burger | Subtract: | None | Add: | None |
+Server | 2 | Place Order(s) from | 3 |
+Server | 2 | Record Food from | 3 | Monster Burger | Subtract: | None | Add: | beef patty |
+Server | 2 | Place Order(s) from | 3 |
+Cook | 2 | sees order | 1 |
+Cook | 2 | cooks order | 1 | Poutine |
+Cook | 1 | cooks order | 1 | Classic Burger |
+Server | 2 | Deliver Order to | 3 | Order: | 1 |
+Server | 2 | Confirm Order in | 3 | Order: | 1 |
+Server | 1 | Clear Table | 3 |
+Cook | 2 | sees order | 2 |
+Cook | 2 | cooks order | 2 | Monster Burger |
+Cook | 1 | cooks order | 2 | Monster Burger |
+Server | 1 | Deliver Order to | 3 | Order: | 2 |
+Server | 2 | Deliver Order to | 3 | Order: | 2 |
+Server | 2 | Return Order from | 2 | Order: | 2 | Monster Burger | Subtract: | None | Add: | beef patty | new subtract: | None | new add: | cheese | Not enough cheese |
+Server | 2 | Return Order from | 3 | Order: | 2 | Monster Burger | Subtract: | None | Add: | beef patty | new subtract: | None | new add: | cheese | Not enough cheese |
+Cook | 1 | cooks order | 3 | Monster Burger |
+Server | 2 | Deliver Order to | 3 | Order: | 3 |
+Server | 2 | Confirm Order in | 3 | Order: | 3 |
+Server | 2 | Clear Table | 3 |
+Manager | 1 | read request |
+Manager | 1 | restock ingredient | cheese |
+Manager | 2 | restock ingredient | bun |

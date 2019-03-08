@@ -1,0 +1,10 @@
+cheese | 1.00
+beef patty | 2.00
+lettuce | 0.20
+tomato | 0.30
+bun | 0.70
+fries | 2.00
+gravy | 1.00
+gt scoop | 2.00
+ground beef | 1.50
+poop | 2.00

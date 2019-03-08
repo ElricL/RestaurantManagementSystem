@@ -1,0 +1,19 @@
+Elric Francis Lazaro - #1003457644 - duties:
+	- Improvements on design based on feedback from Phase1
+	- Logging System
+	- Saving feature (Serialization)
+	- Further Details on Server
+	- Further Details on Table (Split)
+	- Employee Factory Design Pattern
+Najihah Saugi - #1002993692
+	- Implemented the MVC design pattern
+	- Designed and implemented the GUI for employee setup and all employee actions
+	(such as view order, record order, etc)
+	- Grouped the different scenes into multiple Scene classes
+Hassan Hilmi 
+	- Implemented the log-in system for employees
+	- Implemented the special food and menu MVC
+Pujitha Nallapati - #1002433574
+	- Implemented the special food
+	- Write the javadoc for all new classes
+	

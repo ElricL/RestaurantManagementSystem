@@ -1,0 +1,49 @@
+FINE - 04 Apr 2018 11:30: Number of customer is 5 and number of paying customers is 2
+FINE - 04 Apr 2018 11:31: Server 1 records an order of Monster Burger, from Table 1
+FINE - 04 Apr 2018 11:31: Server 1 records an order of Green Tea Ice Cream, from Table 1
+FINE - 04 Apr 2018 11:32: Server 1 records an order of Classic Burger, from Table 1
+FINE - 04 Apr 2018 11:32: Server 1 places final Orders from Table 1
+FINE - 04 Apr 2018 11:32: Number of customer is 9 and number of paying customers is 1
+FINE - 04 Apr 2018 11:32: Server 1 records an order of Poutine, from Table 2
+FINE - 04 Apr 2018 11:32: Server 1 places final Orders from Table 2
+FINE - 04 Apr 2018 11:33: Cook 1 has seen Order: 1
+WARNING - 04 Apr 2018 11:33: Can't set this order to seen. Order2 was not seen by Cook 1
+FINE - 04 Apr 2018 11:33: Cook 1 has seen Order: 2
+FINE - 04 Apr 2018 11:33: Cook 1 has seen Order: 3
+FINE - 04 Apr 2018 11:33: Cook 1 prepared Monster Burger from Order: 1
+WARNING - 04 Apr 2018 11:33: Cook 1 of type Main can't prepare Green Tea Ice Cream of type Desert
+FINE - 04 Apr 2018 11:33: Cook 1 prepared Classic Burger from Order: 2
+INFO - 04 Apr 2018 11:33: Order: 2 has been filled
+FINE - 04 Apr 2018 11:34: Cook 2 has seen Order: 1
+FINE - 04 Apr 2018 11:34: Cook 2 has seen Order: 2
+FINE - 04 Apr 2018 11:34: Cook 2 has seen Order: 3
+WARNING - 04 Apr 2018 11:34: Monster Burger is already prepared
+WARNING - 04 Apr 2018 11:34: Cook 2 of type Dessert can't prepare Green Tea Ice Cream of type Desert
+FINE - 04 Apr 2018 11:34: Cook 3 has seen Order: 1
+WARNING - 04 Apr 2018 11:34: Monster Burger is already prepared
+WARNING - 04 Apr 2018 11:34: Cook 3 of type Appetizer can't prepare Green Tea Ice Cream of type Desert
+FINE - 04 Apr 2018 11:34: Cook 3 has seen Order: 2
+FINE - 04 Apr 2018 11:34: Cook 3 has seen Order: 3
+WARNING - 04 Apr 2018 11:34: Monster Burger is already prepared
+WARNING - 04 Apr 2018 11:34: Cook 3 of type Appetizer can't prepare Green Tea Ice Cream of type Desert
+FINE - 04 Apr 2018 11:35: Manager 1 restocked gt scoop from 38 to 1038
+WARNING - 04 Apr 2018 11:36: One or more of the ingredients is not overstocked
+WARNING - 04 Apr 2018 11:36: One or more of the ingredients is not overstocked
+FINE - 04 Apr 2018 11:36: The new price of the special food Poutine is 3.24
+WARNING - 04 Apr 2018 11:37: One or more of the ingredients is not overstocked
+WARNING - 04 Apr 2018 11:37: One or more of the ingredients is not overstocked
+FINE - 04 Apr 2018 11:37: The new price of the special food Green Tea Ice Cream is 2.43
+WARNING - 04 Apr 2018 11:38: Monster Burger is already prepared
+WARNING - 04 Apr 2018 11:38: Cook 2 of type Dessert can't prepare Green Tea Ice Cream of type Desert
+FINE - 04 Apr 2018 11:38: Server 1 delivered Order 2 to Table 1
+FINE - 04 Apr 2018 11:38: Server 1 records an order of Classic Burger, from Table 1
+FINE - 04 Apr 2018 11:38: Server 1 places final Orders from Table 1
+FINE - 04 Apr 2018 11:38: Classic Burger in Order 2 was returned: bla
+FINE - 04 Apr 2018 11:39: Cook 1 has seen Order: 4
+FINE - 04 Apr 2018 11:39: Cook 1 prepared Classic Burger from Order: 4
+INFO - 04 Apr 2018 11:39: Order: 4 has been filled
+FINE - 04 Apr 2018 11:39: Server 1 delivered Order 4 to Table 1
+FINE - 04 Apr 2018 11:39: Server 1 confirms Order 4 in Table 1
+FINE - 04 Apr 2018 11:39: Server 1 has cleared Table 1: Bill 1 - 0.00, Bill 2 - 7.80 - Total: 7.80 
+INFO - 04 Apr 2018 11:40: Total profit earned Today: 7.80
+INFO - 04 Apr 2018 11:42: Total profit earned Today: 0.00
